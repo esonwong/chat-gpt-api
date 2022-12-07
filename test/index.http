@@ -1,0 +1,13 @@
+### 
+GET http://localhost:3000/api/get-conversation HTTP/1.1
+
+
+###
+
+Post http://localhost:3000/api/send HTTP/1.1
+Content-Type: application/json
+
+{
+    "conversationId": "41db6950-0a62-4b70-8fff-ae20535a9244",
+		"message": "Hello"
+}
